@@ -1,11 +1,8 @@
 # %%
 # FIRST BATCH OF PROPOSALS
 library(mlr3mbo)
-library(mlr3)
-library(mlr3learners)
 library(bbotk)
 library(data.table)
-library(tibble)
 
 round_to_nearest <- function(x, value) {
   to_nearest = value
